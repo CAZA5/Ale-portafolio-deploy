@@ -3,9 +3,10 @@
 set -o errexit
 
 # Modify this line as needed for your package manager (pip, poetry, etc.)
-pip install -r requirements.txt
+
 pip install poetry
-pip install gunicorn
+pip install -r requirements.txt
+
 pip freeze > requirements.txt
 
 # Convert static asset files
