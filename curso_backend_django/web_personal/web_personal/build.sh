@@ -3,7 +3,7 @@
 set -o errexit
 
 # Modify this line as needed for your package manager (pip, poetry, etc.)
-
+cd despliegueAle\curso_backend_django\web_personal\web_personal
 pip install poetry
 pip install -r requirements.txt
 
