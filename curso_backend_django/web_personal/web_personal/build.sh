@@ -6,7 +6,7 @@ set -o errexit
 
 pip install poetry
 pip install -r requirements.txt
-
+pip install gunicorn
 pip freeze > requirements.txt
 
 # Convert static asset files
